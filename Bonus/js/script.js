@@ -19,16 +19,11 @@ const app = new Vue(
             }
         },
         created: function() {
-            this.getArrayEmail();
-            this.getArrayEmail();
-            this.getArrayEmail();
-            this.getArrayEmail();
-            this.getArrayEmail();
-            this.getArrayEmail();
-            this.getArrayEmail();
-            this.getArrayEmail();
-            this.getArrayEmail();
-            this.getArrayEmail();
+            
+            for(let i = 0; i < 10; i++) {
+                this.getArrayEmail();
+            }
+           
         }
     }
 );
